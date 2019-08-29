@@ -1,23 +1,19 @@
 {
-  "name": "web-starter-jc",
+  "name": "Demo-Intuit-app",
   "version": "2.3.2",
-  "description": "Starter kit for markup projects",
+  "description": "Demo Project for Intuit",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/justcoded/web-starter-kit"
+    "url": "git+https://github.com/rupeshdabbir/code-demo"
   },
   "keywords": [
-    "starter",
-    "markup",
-    "JustCoded",
-    "jc"
   ],
   "author": "JustCoded",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/justcoded/web-starter-kit/issues"
+    "url": "https://github.com/rupeshdabbir/code-demo/issues"
   },
-  "homepage": "https://github.com/justcoded/web-starter-kit",
+  "homepage": "https://github.com/rupeshdabbir/code-demo",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
@@ -57,7 +53,8 @@
   "scripts": {
     "test": "gulp build",
     "production": "gulp build",
-    "start": "gulp"
+    "start": "gulp",
+    "preinstall": "gulp"
   },
   "dependencies": {
     "include-media": "^1.4.9",
