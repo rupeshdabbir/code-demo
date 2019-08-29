@@ -52,7 +52,7 @@
   },
   "scripts": {
     "test": "gulp build",
-    "production": "gulp build",
+    "production": "gulp",
     "start": "gulp",
     "preinstall": "npm install -g gulp"
   },
