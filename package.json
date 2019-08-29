@@ -8,7 +8,7 @@
   },
   "keywords": [
   ],
-  "author": "JustCoded",
+  "author": "Rupesh",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rupeshdabbir/code-demo/issues"
@@ -51,7 +51,7 @@
   },
   "scripts": {
     "test": "gulp build",
-    "production": "gulp",
+    "production": "gulp build",
     "start": "gulp",
     "preinstall": "npm install -g gulp"
   },
