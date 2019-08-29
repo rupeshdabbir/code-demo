@@ -60,6 +60,15 @@
     "include-media": "^1.4.9",
     "jquery": "^3.3.1",
     "normalize.css": "^5.0.0",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.18.0",
+    "browserify": "^16.5.0",
+    "del": "^3.0.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "files-exist": "^1.1.0",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-concat": "^2.6.1",
@@ -77,6 +86,10 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.4.1",
-    "gulp-uglify": "^3.0.0"
+    "gulp-uglify": "^3.0.0",
+    "htmlhint-stylish": "^1.0.3",
+    "node-notifier": "^5.0.2",
+    "path": "^0.12.7",
+    "vinyl-source-stream": "^2.0.0"
   }
 }
