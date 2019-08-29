@@ -25,7 +25,7 @@ module.exports = function(options) {
           fn: (snippet, match) => snippet + match
         }
       },
-      port: 8000
+      port: process.env.PORT || 8080
     });
   };
 
