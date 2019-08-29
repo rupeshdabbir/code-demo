@@ -4,10 +4,12 @@
 // Feel free with using ES6 here.
 
 import dotsEffect from './modules/dots';
+import returnList from './components/alertComponent/alert';
 
 (($) => {
   // When DOM is ready
   $(() => {
     dotsEffect.init();
+    returnList();
   });
 })(jQuery);
