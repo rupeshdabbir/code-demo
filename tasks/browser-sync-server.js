@@ -14,6 +14,7 @@ module.exports = function(options) {
     options.browserSync.init({
       notify: false,
       server: {
+
         baseDir: './',
         directory: listDirectory
       },
@@ -24,7 +25,7 @@ module.exports = function(options) {
           fn: (snippet, match) => snippet + match
         }
       },
-      port: 8080
+      port: 80
     });
   };
 

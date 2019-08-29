@@ -6,8 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/rupeshdabbir/code-demo"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "Rupesh",
   "license": "MIT",
   "bugs": {
@@ -47,8 +46,7 @@
     "path": "^0.12.7",
     "vinyl-source-stream": "^2.0.0"
   },
-  "engines": {
-  },
+  "engines": {},
   "scripts": {
     "test": "gulp build",
     "production": "gulp",
