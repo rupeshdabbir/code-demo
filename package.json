@@ -54,7 +54,7 @@
     "test": "gulp build",
     "production": "gulp build",
     "start": "gulp",
-    "preinstall": "gulp"
+    "preinstall": "npm install -g gulp"
   },
   "dependencies": {
     "include-media": "^1.4.9",
